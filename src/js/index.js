@@ -22,7 +22,7 @@ function renderRoutine() {
 	ReactDOM.render(
 		<div className="container-fluid">
 			<SimpleCounter seconds={seconds} />
-			<Button text="stop" method={stopper} />
+			{/* <Button text="stop" method={stopper} /> */}
 		</div>,
 		document.querySelector("#app")
 	);

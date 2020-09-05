@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 
 export const SimpleCounter = props => {
 	return (
-		<div className="row d-flex justify-content-center">
-			<div className="col-1">clock</div>
+		<div className="row d-flex justify-content-around counter">
+			<div className="col-1 number-container">clock</div>
 			<React.Fragment>
 				<NumberContainer
 					digit={Math.floor(props.seconds / 100000) % 10}
