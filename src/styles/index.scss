@@ -15,11 +15,23 @@
 .counter{
 
     background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .number-container{
 
     color: white;
-    background-color: grey;
-    font-size: 10rem
+    background-color: #3c3b3b;
+    font-size: 10rem;
+    border-radius: 1rem;
+}
+
+.clock{
+    max-width: fit-content;
+
+}
+
+.li-buffers{
+    color: black;
 }
